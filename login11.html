@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<style>
+body{
+  margin:0;font-family:Arial;
+  background:linear-gradient(135deg,#7209b7,#3a0ca3);
+  display:flex;justify-content:center;align-items:center;
+  height:100vh;color:white;
+}
+.card{
+  background:rgba(255,255,255,0.1);
+  padding:30px;border-radius:20px;
+}
+input,button{
+  width:100%;padding:10px;margin:5px;border-radius:10px;
+}
+button{background:#4cc9f0;border:none;color:black;font-weight:700;}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h2>Login</h2>
+  <form action="login.php" method="POST">
+    <input type="email" name="email" required placeholder="Email">
+    <input type="password" name="password" required placeholder="Password">
+    <button type="submit">Continue</button>
+  </form>
+</div>
+
+</body>
+</html>
